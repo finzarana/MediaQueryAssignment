@@ -1,0 +1,109 @@
+/*nav{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    border: 2px solid black;
+
+}
+*/
+nav{
+    display:flex;
+    align-items: center;
+    background-color: rgb(211, 188, 99);
+    height: 10vh;
+    width: 100%;
+}
+  .logo{
+      font-size: 2rem;
+      font-weight: 600px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      width: 50%;
+  }
+  .menue{
+      width: 100%;
+  }
+  .menue ul{
+      display: flex;
+      
+      list-style: none;
+      justify-content: end;
+  }
+  .menue ul li{
+      margin: 10px;
+  }
+  .main-content{
+      width: 80%;
+      display: flex;
+      background-color:rgb(110, 95, 34);
+      align-items: center;
+      height:80vh;
+  }
+  .sidebar{
+      width:20%;
+      display: flex;
+      align-items: center;
+      background-color: crimson;
+      height:80vh;
+      
+  }
+  section{
+      height: 80vh;
+      width: 100%;
+      
+      display: flex;
+      align-items: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        background-color: darkcyan;
+    }
+    .footer ul{
+        display: flex;
+        list-style: none;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    @media screen and (max-width:1182px){
+        .logo{
+            width: 70%;
+
+        }
+        .menue{
+            width: 30%;
+        }
+    }
+    @media screen and (max-width:586px){
+        .logo{
+            font-size: 1.4rem;
+
+        }
+        .menue{
+            width: 30%;
+        }
+    }
+@media screen and (max-width:586px){
+    .logo{
+        font-size: 1rem;
+
+    }
+    .menue{
+        width: 30%;
+    }
+    /*.section{
+        display: block;
+        height: 400px;
+    }*/
+}
+    @media screen and (max-width:375px){
+        .logo{
+            font-size: 0.8rem;
+
+        }
+        .menue{
+            width: 30%;
+        }
+    }
+
